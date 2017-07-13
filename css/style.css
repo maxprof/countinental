@@ -27,3 +27,12 @@ h2.h2-services{
 	font-weight: bold;
 	color: #e01a1b;
 }
+#map {
+	height: 100%;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
