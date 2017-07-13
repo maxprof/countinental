@@ -9,31 +9,92 @@
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
-h1.main-h1{
-	color: #fff;
-	-webkit-background-size: 20px;
-	background-size: 20px;
+h1.main-h1 {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 32px!important;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 15px;
 }
 button.online{
 	color: #fff;
-	background-color: #df191a;
+	background-color: #db3333;
 	border: none;
 	padding: 10px;
+	margin-bottom: 44px;
 }
 button.online:hover{
 	background-color: #df191a;
+	margin-bottom: 45px;
 }
 h2.h2-services{
 	font-weight: bold;
 	color: #e01a1b;
 }
 #map {
-	height: 300px;
-
+	height: 500px;
 }
-/* Optional: Makes the sample page fill the window. */
 html, body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
+}
+.main-logo{
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    background-image: url(../img/main-logo.png);
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+}
+
+hr.bottom-line {
+    height: 1px;
+    opacity: 0.6;
+    margin-top: 12px;
+}
+
+.menu{
+	width: 30%;
+	height: auto;
+	float: left;
+}
+img.menu-img {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+.language{
+	width: 30%;
+	height: auto;
+	float: left;
+
+}
+.logo{
+	width: 40%;
+	height: auto;
+	float: left;
+}
+img.facebook-img{
+	float: left;
+	cursor: pointer;
+}
+
+img.instagram-img {
+    float: right;
+	cursor: pointer;
+}
+
+.social-block {
+    width: 88px;
+    height: 26px;
+    margin: 0 auto;
+    margin-bottom: 132px;
+}
+
+.header-content {
+    margin-top: 70px;
 }

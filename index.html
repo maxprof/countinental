@@ -2,19 +2,46 @@
 <html lang="en">
 <head>
 	<title>Document</title>
-	<meta name="viewport" content="initial-scale=1.0">
+	<meta name="viewport" content="width=device-width">
     <meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 	<link href="bower_components/air-datepicker/dist/css/datepicker.min.css" rel="stylesheet" type="text/css" >
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
 	<section id="header">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6 col-md-offset-3 ">
-					<h1 class="main-h1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia autem rerum id accusamus ad</h1>
+				<div class="col-md-9 col-md-offset-2">
+									<br>
+				<div class="menu">
+					<img src="img/menu.png" class="menu-img" alt="">
+					<hr class="bottom-line">
+				</div>
+
+				<div class="logo">
+					<div class="main-logo"></div>
+				</div>
+
+				<div class="language">
+					<br>
+					<hr class="bottom-line">
+				</div>
+				<div class="col-md-9 col-md-offset-1 header-content">
+					<h1 class="main-h1 text-center">Lorem Ipsum - це текст-"риба", що використовується в друкарстві та дизайні. </h1>
 					<button class="btn-primary online center-block">ON-LINE ЗАПИС</button>
+					<div class="clearfix"></div>
+					<div class="social-block">
+						<a href="">
+							<img src="img/facebook-white.png" class="facebook-img" alt="">	
+						</a>
+						<a href="">
+							<img src="img/instagram-white.png" class="instagram-img" alt="">
+						</a>
+					</div>
+					<div class="clearfix"></div>
+				</div>
 				</div>
 			</div>
 		</div>
@@ -53,7 +80,7 @@
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
           center: {lat: 49.232985313688320, lng: 28.47229087605730},
-          zoom: 16,
+          zoom: 15,
           maptype:'roadmap', format:'png',
           styles: [
                	{
