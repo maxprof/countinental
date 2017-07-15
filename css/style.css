@@ -129,7 +129,7 @@ img.knife {
     padding-right: 0px;
     padding-top: 2px;
 }
-section#services,section#masters{
+section#services,section#masters, section#gallery, section#contacts{
 	background-color: #0b0b0b;
 }
 span.services {
@@ -198,3 +198,33 @@ ul.services > li {
 .col-md-8.rm-padding {
     padding-right: 0px;
 }
+h3.master-name {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #e01a1a;
+    padding-top: 255px;
+    font-weight: 700;
+    float: left;
+}
+a.social-links {
+	width: 22px;
+    height: 21px;
+    display: block;
+    float: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+a.social-links > img{
+	width: 100%;
+}
+.social-links-block {
+    position: relative;
+    right: 30px;
+    float: right;
+    top: 30px;
+    z-index: 10;
+}
+.grid-item { width: 200px; }
+.grid-item--width2 { width: 400px; }
