@@ -119,25 +119,24 @@
     overflow: hidden;
     margin: 0;
     padding: 3em 0 0 0;
-    width: 98%;
+    width: 99%;
     list-style: none;
     text-align: center;
-    margin-left: -105px;
 }
 
 /* Common style */
 .grid figure {
-	position: relative;
-	z-index: 1;
-	display: inline-block;
-	overflow: hidden;
-	margin: -2px;
-    width: 20.333%;
-	height: 400px;
-	background: #3085a3;
-	text-align: center;
-	cursor: pointer;
-	margin-top: -24px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    overflow: hidden;
+    margin: -2px;
+    width: 25.1%;
+    height: 400px;
+    background: #3085a3;
+    text-align: center;
+    cursor: pointer;
+    margin-top: -24px;
 }
 
 /*.grid figure img {
