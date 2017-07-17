@@ -251,7 +251,7 @@ ul.contacts{
 ul.contacts > li{
 	list-style-type: none;
 	display: inline-block;
-	padding-right: 48px;
+	padding-right: 40px;
 }
 
 ul.contacts > li > img{
@@ -323,4 +323,20 @@ p.copiright-p.text-center {
     margin: 0px;
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
+}
+
+.item {
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin: 5px;
+    background: #CCC;
+}
+
+.item.w2 {
+    width: 130px;
+}
+
+.item.h2 {
+    height: 130px;
 }
