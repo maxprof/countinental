@@ -82,7 +82,7 @@ img.menu-img {
 
 }
 .logo{
-	width: 30%;
+    width: 100%;
 	height: auto;
 	float: left;
 	margin-top: 6px;
@@ -323,4 +323,11 @@ p.copiright-p.text-center {
     margin: 0px;
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
+}
+img.master-img {
+    width: 100%;
+}
+h3.master-name {
+    position: absolute;
+    bottom: 15px;
 }
